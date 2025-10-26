@@ -3,7 +3,7 @@ import Shop from "./pages/public/Shop";
 import Auth from "./pages/public/Auth";
 import Checkout from "./pages/public/Checkout";
 import Contact from "./pages/public/Contact";
-import About from "./pages/public/about";
+import About from "./pages/public/About";
 
 const routes = [
   { path: "/", element: <Home /> },
