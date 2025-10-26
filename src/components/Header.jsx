@@ -47,14 +47,14 @@ export default function Header() {
               isActive ? "text-rose-500" : "text-gray-500"
             }
           >
-            <RiShoppingCartLine className="bg-gray-100 p-1.5 w-[52px] h-10.5 rounded-md cursor-pointer" />
+            <RiShoppingCartLine className="bg-gray-100 p-1.5 w-[52px] h-10.5 rounded-md cursor-pointer transition duration-200" />
           </NavLink>
         </div>
         <div className="fixed bottom-0 text-sm right-0 left-0 bg-white pt-4 pb-1 border-t border-t-gray-100 text-gray-500 flex items-center justify-around">
           <NavLink
             to="/"
             className={({ isActive }) =>
-              `flex flex-col items-center gap-y-1 transition-transform duration-200 ${
+              `flex flex-col items-center gap-y-1 transition duration-200 ${
                 isActive ? "text-rose-500 -translate-y-3" : "text-gray-500"
               }`
             }
@@ -65,7 +65,7 @@ export default function Header() {
           <NavLink
             to="/shop"
             className={({ isActive }) =>
-              `flex flex-col items-center gap-y-1 transition-transform duration-200 ${
+              `flex flex-col items-center gap-y-1 transition duration-200 ${
                 isActive ? "text-rose-500 -translate-y-3" : "text-gray-500"
               }`
             }
@@ -76,7 +76,7 @@ export default function Header() {
           <NavLink
             to="/auth"
             className={({ isActive }) =>
-              `flex flex-col items-center gap-y-1 transition-transform duration-200 ${
+              `flex flex-col items-center gap-y-1 transition duration-200 ${
                 isActive ? "text-rose-500 -translate-y-3" : "text-gray-500"
               }`
             }
